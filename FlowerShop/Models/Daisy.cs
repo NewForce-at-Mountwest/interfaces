@@ -3,17 +3,13 @@ using System.Collections.Generic;
 
 namespace interfaces
 {
-    class Rose : IWeddingFlower
+    class Daisy : IMothersDayFlower, IWeddingFlower
     {
-        public string color {get; set;}
-
-        public string species {get ; set;}
-
-        public bool isItThorny {get; set;}
+       public int petalCount { get; set;}
 
         public bool doesItSmellNice {get; set;}
 
         public int stemLength {get; set;}
-
+        public string color { get; set; }
     }
 }
